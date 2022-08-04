@@ -81,7 +81,6 @@ h1 {
 
 /*Testimonials*/
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -100,6 +99,10 @@ h2 {
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -109,4 +112,33 @@ h2 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing {
+    margin: 7% 10%;
+}
+
+#pricing h2 {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+
+#pricing h2, p {
+    text-align: center;
+}
+
+#pricing p {
+    color: #8f8f8f
+}
+
+.pricing-card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+
+.list-unstyled li {
+    white-space: pre;
 }
