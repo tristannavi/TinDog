@@ -119,6 +119,10 @@ h2 {
     margin: 7% 10%;
 }
 
+#pricing .row {
+    padding-top: 2%;
+}
+
 #pricing h2 {
     font-family: "Montserrat", serif;
     font-weight: 500;
@@ -140,5 +144,5 @@ h2 {
 }
 
 .list-unstyled li {
-    white-space: pre;
+    white-space: pre; /*Show the empty list item so all cards have the same length*/
 }
