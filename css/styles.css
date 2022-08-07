@@ -15,7 +15,7 @@ h1 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /*Navigation bar*/
@@ -46,13 +46,17 @@ h1 {
 
 /*Title Image*/
 .title-image {
-    width: 60%;
+    max-width: 60%;
     transform: rotate(24deg);
+    position: absolute;
 }
 
 /*Second section*/
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-icon {
