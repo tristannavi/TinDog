@@ -150,3 +150,14 @@ h2 {
 .list-unstyled li {
     white-space: pre; /*Show the empty list item so all cards have the same length*/
 }
+
+@media (max-width: 1200px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
