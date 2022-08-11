@@ -2,16 +2,19 @@ body {
     font-family: "Montserrat", serif;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
+h1, h2, h3 {
+    font-family: "Montserrat", serif;
 }
 
-h1 {
-    font-family: "Montserrat", serif;
+.big-heading {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
 }
 
 .container-fluid {
@@ -74,8 +77,6 @@ h1 {
 }
 
 .feature-box h3 {
-    font-family: "Montserrat", serif;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 
@@ -90,12 +91,6 @@ h1 {
     color: white;
 }
 
-h2 {
-    font-family: "Montserrat", serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
 
 .testimonial-image {
     width: 10%;
@@ -128,27 +123,19 @@ h2 {
 }
 
 #pricing h2 {
-    font-family: "Montserrat", serif;
     font-weight: 500;
-}
-
-#pricing h2, p {
     text-align: center;
+
 }
 
 #pricing p {
-    color: #8f8f8f
+    color: #8f8f8f;
+    text-align: center;
 }
 
 .pricing-card-title {
     font-size: 3rem;
-    line-height: 1.5;
-    font-family: "Montserrat", serif;
     font-weight: 500;
-}
-
-.list-unstyled li {
-    white-space: pre; /*Show the empty list item so all cards have the same length*/
 }
 
 /*Call to action*/
@@ -156,14 +143,9 @@ h2 {
     background-color: #ff4c68;
     padding: 7% 15%;
     text-align: center;
-
 }
 
 #cta h3 {
-    font-family: "Montserrat", serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
     color: white;
 }
 
