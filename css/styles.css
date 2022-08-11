@@ -151,6 +151,33 @@ h2 {
     white-space: pre; /*Show the empty list item so all cards have the same length*/
 }
 
+/*Call to action*/
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+#cta h3 {
+    font-family: "Montserrat", serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/*Footer*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 20px 10px;
+}
+
+
 @media (max-width: 1200px) {
     #title {
         text-align: center;
